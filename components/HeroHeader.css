@@ -1,0 +1,17 @@
+/* src/components/Hero.css */
+section {
+  background: #f8f9fa;
+  border-radius: 20px;
+}
+.img-fluid{
+     min-height: 360px;
+     min-width:300px;
+     border-radius: 30px; 
+
+}
+.img-fluid:hover{
+transform:scale(1.1);
+box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1),
+            -3px -3px -5px rgba(0, 0, 0, 0.1);
+transition: all 0.5s ease-in-out;            
+}
